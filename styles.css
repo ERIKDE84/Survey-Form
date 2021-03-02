@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.753);
+}
+main{
+    margin: 20px 30% 20px 30%;
+    background-color: aqua;
+    border: black 5px solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+#title{
+    text-align: center;
+    font-weight: 800;
+}
+#description{
+
+}
+form label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+form input{
+}
+.group{
+    display: inline;
+}
