@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Thank you</title>
+    <title>Thank you!</title>
 </head>
 
 <body>
@@ -25,27 +25,38 @@
             <label id="number-label" for="number">How much do you want to donate?</label>
             <input id="number" type="number" min="1" max="10000" placeholder="5" required>
 
-            <label for="dropdown">How regularly do you want to donate?</label>
-            <select name="frequency" id="dropdown">
-                <option value="once">Once</option>
-                <option value="weekly">Weekly</option>
-                <option value="monthly">Monthly</option>
-                <option value="yearly">Yearly</option>
-            </select>
+            <div class="regularity-payment">
+                <div class="regularity">
+                    <label for="dropdown">How regularly do you want to donate?</label>
+                    <select name="frequency" id="dropdown">
+                        <option value="once">Once</option>
+                        <option value="weekly">Weekly</option>
+                        <option value="monthly">Monthly</option>
+                        <option value="yearly">Yearly</option>
+                    </select>
+                </div>
 
-            <div class="group">
-                <input id="creditdebitcard" type="radio" name="paymentservice" value="creditdebitcard">
-                <label for="creditdebitcard">Credit-/Debitcard</label>
-            </div>
-            <div class="group">
-                <input id="paypal" type="radio" name="paymentservice" value="paypal">
-                <label for="paypal">PayPal</label>
+                <div class="payment">
+                    <div class="paymentservice">
+                        <input id="creditdebitcard" type="radio" name="paymentservice" value="creditdebitcard">
+                        <label for="creditdebitcard">Credit-/Debitcard</label>
+                    </div>
+
+                    <div class="paymentservice">
+                        <input id="paypal" type="radio" name="paymentservice" value="paypal">
+                        <label for="paypal">PayPal</label>
+                    </div>
+                </div>
             </div>
 
-            <input id="receipt" type="checkbox" value="receipt">
-            <label for="receipt">I would like you to send me a receipt for my donation</label>
-            <input id="newsletter" type="checkbox" value="newsletter">
-            <label for="newsletter">I would like you to send me your Newsletter</label>
+            <div class="checkboxes">
+                <input id="receipt" type="checkbox" value="receipt">
+                <label for="receipt">I would like you to send me a receipt for my donation.</label>
+            </div>
+            <div class="checkboxes">
+                <input id="newsletter" type="checkbox" value="newsletter">
+                <label for="newsletter">I would like you to send me your Newsletter.</label>
+            </div>
 
             <label for="suggestions">We are constantly trying to improve our service for you.
                 If you have any suggestions or comments for us, let us know.</label>
