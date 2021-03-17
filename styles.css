@@ -35,9 +35,9 @@ form label{
     margin: 40px auto 2px auto;
 }
 form input{
-    width: 100%;
+    width: 96%;
     height: 25px;
-    padding: 0px;
+    padding: 0px 2%;
     border: 0px;
     border-radius: 5px;
     outline: none;
@@ -87,4 +87,19 @@ form .paymentservice{
     outline: none;
     width: 100%;
     height: 15%;
+    border-radius: 5px;
+}
+#submit{
+    height: auto;
+    min-width: 110px;
+    border-radius: 5px;
+    background: var(--main-color);
+    font-size: 25px;
+    color: aliceblue;
+}
+#submit:focus{
+    background-color: var(--second-color);
+}
+#submit, input, select:hover{
+    cursor: pointer;
 }
