@@ -1,2 +1,4 @@
-# Survey-Form
-A Mock Survey-Form, build as a solution to freeCodeCamps's 2nd challenge of the Responsive Webdesign Curriculum 
+#survey-form
+A survey about the process of donating to a non-profit. This is a mock survey.   
+
+freeCodeCamp Responsive Web Design Projects 2/5
